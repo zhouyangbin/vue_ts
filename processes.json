@@ -1,0 +1,36 @@
+{
+    "apps": [{
+        "name": "pm2_client_app",
+        "cwd": "./",
+        "script": "app.js",
+        "log_date_format": "YYYY-MM-DD HH:mm Z",
+        "error_file": "./logs/app-err.log",
+        "out_file": "./logs/app-out.lo",
+        "pid_file": "pids/node-geo-api.pid",
+        "merge_logs": true,
+        "instances": 2,
+        "min_uptime": "200s",
+        "max_restarts": 10,
+        "max_memory_restart": "300M",
+        "cron_restart": "1 0 * * *",
+        "watch": [
+            "./modules",
+            "./router"
+        ],
+        "ignore_watch": [
+            "./node_modules",
+            "./logs",
+            "./pids"
+        ],
+        "watch_options": {
+            "usePolling": true
+        },
+        "exec_interpreter": "node",
+        "exec_mode": "fork",
+        "autorestart": false,
+        "vizion": false,
+        "env": {
+            "NODE_ENV": "development"
+        }
+    }]
+}
