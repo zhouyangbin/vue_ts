@@ -1,5 +1,4 @@
 
-github:[https://github.com/lzxb/vue2-demo](https://github.com/lzxb/vue2-demo)
 
 ```
 
@@ -33,6 +32,6 @@ vuex                                  // 组件状态管理
 ```
 npm install
 npm run dev
-http://localhost:3000
+http://localhost:3100
 
 账号密码随便输入
