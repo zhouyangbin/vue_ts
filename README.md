@@ -1,15 +1,8 @@
 
-github:[https://github.com/lzxb/vue2-demo](https://github.com/lzxb/vue2-demo)
 
 ```
 
-#### gulp相关模块
-```
-gulp                                  // 用来构建自动化工作流
-gulp-sftp                             // 将代码自动部署到服务器上
-del                                   // 代码部署成功后，删除本地编译的代码
-```
-#### 其他模块
+
 ```
 cross-env                             // 解决跨平台设置NODE_ENV的问题
 ```
@@ -33,6 +26,6 @@ vuex                                  // 组件状态管理
 ```
 npm install
 npm run dev
-http://localhost:3000
+http://localhost:3100
 
 账号密码随便输入
