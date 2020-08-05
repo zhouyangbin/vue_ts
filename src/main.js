@@ -13,6 +13,8 @@ Object.keys(components).forEach((key) => {
 })
 Vue.use(VueRouter)
 const router = new VueRouter({
+    mode: 'history',
+    base: '/',
     routes
 })
 router.beforeEach(({

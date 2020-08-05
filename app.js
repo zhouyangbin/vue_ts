@@ -13,7 +13,9 @@ var bodyParser = require('body-parser');
 //加载cookie模块
 var Cookies = require('cookie-parser');
 var path = require('path'); /* 重要：目录设置时，可使用其方法引用根目录， 不可少 */
+var history = require('connect-history-api-fallback');
 var app = express();
+app.use(history());
 // var router = require("./router");
 //创建application/json解析
 var jsonParser = bodyParser.json();
