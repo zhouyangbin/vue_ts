@@ -6,7 +6,7 @@ const isPro = process.env.NODE_ENV === 'production'
     // 3、自定义axios
 let request = axios.create({
         // 基础的请求地址
-        baseURL: isPro ? 'http://localhost:8085' : 'http://localhost:8085' // 后面的时线上的地址，可以改为自己的线上接口地址
+        baseURL: isPro ? 'http://122.51.31.223:8085' : 'http://localhost:8085' // 后面的时线上的地址，可以改为自己的线上接口地址
     })
     // 4、使用axios的拦截器  ----  请求的拦截器  +  响应的拦截器
 
