@@ -31,7 +31,7 @@
     "del": "^2.2.2",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^0.9.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-sftp": "^0.1.5",
     "html-webpack-plugin": "^2.24.0",
     "less": "^2.7.1",
